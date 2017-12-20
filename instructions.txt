@@ -4,3 +4,5 @@ push to git
 
 git init keyword to initialise folder
 git add filename or . to add files to tracking
+
+git commit -m "this is a message"
