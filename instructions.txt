@@ -6,3 +6,24 @@ git init keyword to initialise folder
 git add filename or . to add files to tracking
 
 git commit -m "this is a message"
+
+Example:
+1.  open relavent folder in cmd
+2.  'git init'				---initialize folder
+3.  add file to folder			---for testing purposes
+4.  'git status'			---check status (will show the new file as untracked)
+5.  'git add' and the file name		---add file to be committed
+6.  'git status'			---check status (will show the new file as tracked)
+7.  'git commit -m "add comment"	---May ask for username and password use on screen instructions if so
+8.  make a change to the file		---For testing purposes
+9.  'git status'			---check status (will show the file as modified)
+10. 'git commit -a -m "add comment"	---commit the modified file
+11. 'git status'			---check status (will show nothing to commit)
+12. 'git remote add origin https://github.com/dovidav/ABCoding.git'	---register with github repository
+13. 'git push origin master'		---upload to github
+14. create subfolder			---for testing purposes
+15. add file to subfolder		---for testing purposes
+16. 'git add' and the file name		---add file to be committed
+17. 'git status'			---check status (will show the new file as tracked)
+18. 'git commit -a -m "add comment"	---commit the modified file
+19. 'git push origin master'		---upload to github
