@@ -1,0 +1,6 @@
+add folder to git to track
+pull down from git
+push to git
+
+git init keyword to initialise folder
+git add filename or . to add files to tracking
